@@ -7,8 +7,8 @@ APIs.
 Installation
 ------------
 
-This module depends on [mod_ginger_xml](https://github.com/driebit/mod_ginger_xml)
-so install that, too.
+This module depends on [mod_ginger_xml](https://github.com/driebit/mod_ginger_xml),
+so make sure to install that, too.
 
 Usage
 -----
