@@ -26,9 +26,8 @@ You can parse those items with `xmerl`:
 ```erlang
 lists:map(
     fun(Item) ->
-        [
-            Title = ginger_xml:get_value("//title", Item)
-        ]
+        Title = ginger_xml:get_value("//title", Item)
+        %% Go and do cool stuff with the data!
     end,
     Items
 ).
