@@ -49,7 +49,7 @@ parse_response(Response) ->
 
 parse_item_rss(Item) ->
     [
-        {title, xml_utils:get_value("//title", Item)},
-        {link, xml_utils:get_value("//link", Item)},
-        {description, xml_utils:get_value("//description", Item)}
+        {title, ginger_xml:get_value("//title", Item)},
+        {link, ginger_xml:get_value("//link", Item)},
+        {description, ginger_xml:get_value("//description", Item)}
     ].
