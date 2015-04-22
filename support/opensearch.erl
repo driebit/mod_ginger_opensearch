@@ -14,7 +14,7 @@ search(Url, SearchTerms) ->
 
 search(Url, SearchTerms, Count, StartIndex, StartPage) ->
     UrlParams = [ % count
-        {searchTerms, SearchTerms},
+        {q, SearchTerms},
         {count, Count},
         {startIndex, StartIndex},
         {startPage, StartPage}
